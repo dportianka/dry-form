@@ -5,6 +5,7 @@
  * Nobody knows html
  * onChange updates/validation
  * inconsistnce some of the inputs should be treated differently
+ * react team doesnt suggest it https://reactjs.org/docs/uncontrolled-components.html
  *
  * */
 

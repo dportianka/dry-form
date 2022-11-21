@@ -9,8 +9,6 @@ import { useForm } from "react-hook-form";
  *
  * a lot of boilerplate code
  *
- * not suggested way from react team https://reactjs.org/docs/uncontrolled-components.html
- *
  * */
 
 const ReactHookForm = () => {
