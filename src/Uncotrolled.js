@@ -3,7 +3,7 @@
  * html standard
  *
  * Nobody knows html
- * onChange updates
+ * onChange updates/validation
  * inconsistnce some of the inputs should be treated differently
  *
  * */

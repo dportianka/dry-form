@@ -1,5 +1,6 @@
 import { Route, Routes, Link } from "react-router-dom";
 import Uncontrolled from "./Uncotrolled";
+import Controlled from "./Controlled";
 
 export default function Root() {
   return (
@@ -28,7 +29,7 @@ export default function Root() {
       </nav>
       <Routes>
         <Route element={<Uncontrolled />} path="uncotrolled" />
-        <Route element={<div>controled</div>} path="controlled" />
+        <Route element={<Controlled />} path="controlled" />
         <Route element={<div>React Hook Form</div>} path="react-hook-form" />
         <Route element={<div>Formik</div>} path="formik" />
         <Route element={<div>React Form</div>} path="react-form" />
