@@ -14,19 +14,10 @@ const Uncontrolled = () => {
       onSubmit={(event) => {
         event.preventDefault();
 
-        console.log(
-          "Form value",
-          Object.fromEntries(
-            ["name", "email"].map((fieldName) => {
-              return [fieldName, event.target[fieldName].value];
-            })
-          )
-        );
-
         console.log("Form values:", {
           name: event.target.name.value,
           email: event.target.email.value,
-          agree: event.target.agree.checked,
+          agree: event.target.agree.checked, // why???
         });
       }}
     >

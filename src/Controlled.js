@@ -46,6 +46,7 @@ const Controlled = () => {
           value={formValue.email}
           onChange={(event) => {
             setFormValue((oldValue) => ({
+              // how dry is it?
               ...oldValue,
               email: event.target.value,
             }));
