@@ -3,6 +3,7 @@ import Uncontrolled from "./Uncotrolled";
 import Controlled from "./Controlled";
 import ReactHookForm from "./ReactHookForm";
 import FormikExample from "./FormikExample";
+import DryForm from "./DryForm";
 
 export default function Root() {
   return (
@@ -29,7 +30,7 @@ export default function Root() {
         <Route element={<Controlled />} path="controlled" />
         <Route element={<ReactHookForm />} path="react-hook-form" />
         <Route element={<FormikExample />} path="formik" />
-        <Route element={<div>DRY form</div>} path="controlled-but-cooler" />
+        <Route element={<DryForm />} path="dry-form" />
       </Routes>
     </>
   );

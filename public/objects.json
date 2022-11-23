@@ -1,0 +1,9 @@
+{
+  "User": {
+    "fields": {
+      "name": { "label": "Name", "type": "text" },
+      "email": { "label": "E-mail", "type": "email" },
+      "agree": { "label": "Agree", "type": "bool" }
+    }
+  }
+}
