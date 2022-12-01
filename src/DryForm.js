@@ -19,6 +19,7 @@ const DryForm = () => {
           {
             name: "name",
             required: true,
+            classname: "dmytro",
           },
           {
             name: "email",

@@ -1,6 +1,6 @@
-const Text = ({ value, onChange, label, ...rest }) => {
+const Text = ({ value, onChange, label, classname, ...rest }) => {
   return (
-    <div>
+    <div className={classname}>
       <label>
         {label}:
         <input
